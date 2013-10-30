@@ -431,8 +431,8 @@ if __name__ == "__main__":
 
   if should("base"):
     # always do this together
-    add_googledoc_data(output)
     add_scraperwiki_data(output)
+    add_googledoc_data(output)
   if should("terms"): add_term_data(output)
   if should("abra"): add_abra_data(output)
   if should("gis"): add_geographic_data(output)
